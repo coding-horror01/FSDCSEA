@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Light Bulb Toggle</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>hello git world</h1>
+    <h1>Add Multiple Bulbs and Light Them</h1>
+    
+    <div>
+        <label for="numBulbs">Number of Bulbs to Add: </label>
+        <input type="number" id="numBulbs" min="1" value="1">
+        <button id="addBulbBtn">Add Bulbs</button>
+    </div>
+    
+    <div class="bulb-container" id="bulbContainer"></div>
+
+    <script src="index.js"></script>
 </body>
 </html>
